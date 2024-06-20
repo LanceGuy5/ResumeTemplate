@@ -1,0 +1,226 @@
+
+\documentclass[letterpaper]{deedy-resume} 
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated
+
+\namesection{Lance}{Hartman}{
+\href{mailto:lancehar@seas.upenn.edu}{lancehar@seas.upenn.edu} | 215-260-4994 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.35\textwidth}
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{University of Pennsylvania}
+
+\descript{BS in Computer Science}
+\location{Expected May 2027}
+School of Engineering Applied Science \\
+\location{ Cum. GPA: 3.68 / 4.0 \\
+Major GPA: 3.7 / 4.0}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Hatboro-Horsham\\High School}
+
+\location{Grad. May 2023}
+\location{ GPA: 4.0 / 4.0}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+Github:// \href{https://github.com/LanceGuy5}{\bf LanceGuy5} \\
+LinkedIn:// \href{https://www.linkedin.com/in/lance-hartman/}{\bf lance-hartman}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programming}
+
+\location{Over 5000 lines:}
+Java \textbullet{} Python \textbullet{} C++ \textbullet{} TypeScript\ \\ 
+\location{Over 1000 lines:}
+HTML \textbullet{} CSS \textbullet{} \LaTeX \textbullet{} R\\
+\location{Familiar:}
+SQL \textbullet{} Cypher \textbullet{} iOS
+
+\sectionspace
+
+\subsection{Technologies}
+CUDA \textbullet{} Neo4j \textbullet{} Kafka \\
+Jupyter \textbullet{} ROS \textbullet{} Flask \\
+Spring Boot \textbullet{} Linux
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+
+Discrete Mathematics \\
+Graph Theory \\
+Introduction to Data Structures \\
+Data Structures and Algorithms \\
+Automata Theory\\
+% {\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
+% Unix Tools and Scripting
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.64\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{Children's Hospital of Philadelphia}\\
+\descript{Bioinformatics Intern}
+
+\location{Summers of 2021, 2022, 2023}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Assisted in the manufacturing of a knowledge graph, hosted on Neo4j, that allows doctors to interact with enormous amounts of data related to genetic disorders, treatments, and diagnoses.
+\item Populated the knowledge graph with human phenotypic data.
+\item Worked on programming of an interface that uses artificial intelligence to translate between English queries and Cypher queries, allowing doctors to query the graph.
+\item Designed efficient epistasis-identification algorithms, and implemented them using CUDA's C++ Toolkit to execute on a GPU cluster.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+\runsubsection{MIAX Exchange Group}\\
+\descript{Software Engineering Intern}
+\location{June 2024-August 2024}
+\begin{tightitemize}
+\item Upcoming for the summer of 2024.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+% \runsubsection{Google}
+% \descript{| Software Engineering Intern}
+
+% \location{May 2013 – Aug 2013 | Mountain View, CA}
+% \begin{tightitemize}
+% \item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.
+% \item Created a backbone.js-like framework for the Captions editor.
+% \item All code was reviewed, perfected, and pushed to production.
+% \end{tightitemize}
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Clubs
+%------------------------------------------------
+
+\section{Extracurriculars} 
+
+\descript{Wharton Undergraduate Data Analytics Club: 2023-2024}
+% \vspace{\topsep}
+\begin{tightitemize}
+    \item Explored topics from basic probability to deep learning, regression models, and classification.
+\end{tightitemize}
+
+\descript{Software Team Lead, Hatboro Horsham Robotics: 2019-2023}
+\begin{tightitemize}
+    \item Oversaw all software operations on the robot.
+    \item Managed system integrations between hardware and software.
+    \item Wrote Java code to operate on the robot.
+\end{tightitemize}
+
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research
+%------------------------------------------------
+
+\section{Publications}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+    \item \textbf{Children’s Hospital of Philadelphia Bioinformatics Team}\\
+    Stear B.J., Ahooyi T.M., Keith K., Lahiri A., Kollar C., Borromeo L.B., Qian L., \textbf{Hartman L.F.}, Vasisht S., Curry I., Gong M., Horsley K., Callahan T., Prasad S., Urbanowicz R., Silverstein J.C., Taylor D.M. (2022) Petagraph: A unifying graph framework for integrating biomolecular data. Manuscript submitted for publication.
+\end{tightitemize}
+
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+\section{Awards} 
+
+\begin{tabular}{rll}
+2019	 & 2\textsuperscript{nd} National & American Statistical Association Poster Contest\\
+2023     & Top 25\% & M3 Math Modeling Challenge\\
+2024     & Winner   & M\&T Entrepreneurship Award - Cara AI
+\end{tabular}
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
